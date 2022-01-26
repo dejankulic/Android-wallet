@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PrviProjekat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="pregled_ukupnog_stanja_racuna">Pregled ukupnog stanja racuna</string>
+    <string name="prihod">Prihod:</string>
+    <string name="rashod">Rashod:</string>
+    <string name="razlika">Razlika:</string>
+    <string name="podaci_o_korisniku">Podaci o korisniku</string>
+    <string name="ime">Ime:</string>
+    <string name="prezime">Prezime:</string>
+    <string name="banka">Banka:</string>
+    <string name="unesi">Unesi</string>
+    <string name="unos_novog_prihoda_ili_rashoda">Unos novog prihoda ili rashoda</string>
+    <string name="novcanik_sistem_za_studente_raf_a">Novcanik sistem za studente RAF-a</string>
+    <string name="unesite_ime">Unesite ime</string>
+    <string name="unesite_prezime">Unesite prezime</string>
+    <string name="unesite_banku">Unesite banku</string>
+    <string name="prijava">Prijava</string>
+    <string name="opis">Opis</string>
+    <string name="izmeni">Izmeni</string>
+    <string name="odustani">Odustani</string>
+</resources>

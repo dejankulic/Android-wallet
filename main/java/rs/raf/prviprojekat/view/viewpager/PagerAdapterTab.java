@@ -1,0 +1,55 @@
+package rs.raf.prviprojekat.view.viewpager;
+
+import android.content.SharedPreferences;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+
+import rs.raf.prviprojekat.view.activities.MainActivity;
+import rs.raf.prviprojekat.view.fragments.ListeFragment;
+import rs.raf.prviprojekat.view.fragments.PrihodFragment;
+import rs.raf.prviprojekat.view.fragments.ProfilFragment;
+import rs.raf.prviprojekat.view.fragments.RashodFragment;
+import rs.raf.prviprojekat.view.fragments.StanjeFragment;
+
+public class PagerAdapterTab extends FragmentPagerAdapter {
+
+    private final int ITEM_COUNT = 2;
+    public static final int FRAGMENT_1 = 0;
+    public static final int FRAGMENT_2 = 1;
+
+    public PagerAdapterTab(@NonNull FragmentManager fm){
+        super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+    }
+
+    @NonNull
+    @Override
+    public Fragment getItem(int position) {
+
+
+        Fragment fragment;
+        switch(position){
+            case FRAGMENT_1: fragment = new PrihodFragment(); break;
+            default:
+                fragment = new RashodFragment();
+        }
+        return fragment;
+    }
+
+    @Override
+    public int getCount() {
+        return ITEM_COUNT;
+    }
+
+    @Nullable
+    @Override
+    public CharSequence getPageTitle(int position) {
+        switch (position){
+            case FRAGMENT_1: return "PRIHODI";
+            default: return "RASHODI";
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrviProjekat</string>
+    <string name="ime">Name</string>
+    <string name="prezime">Last name</string>
+    <string name="banka">Bank</string>
+    <string name="unesi">Input</string>
+    <string name="unos_novog_prihoda_ili_rashoda">Input of a new income or expense</string>
+    <string name="novcanik_sistem_za_studente_raf_a">Wallet system for students of RAF</string>
+    <string name="unesite_ime">Enter a name</string>
+    <string name="prihod">Income:</string>
+    <string name="rashod">Expense</string>
+    <string name="razlika">The difference</string>
+    <string name="podaci_o_korisniku">User informations</string>
+    <string name="pregled_ukupnog_stanja_racuna">Overview of the total account balance</string>
+    <string name="unesite_prezime">Enter lastname</string>
+    <string name="unesite_banku">Enter bank</string>
+    <string name="prijava">Login</string>
+    <string name="opis">Description</string>
+    <string name="izmeni">Save changes</string>
+    <string name="odustani">Back</string>
+</resources>
